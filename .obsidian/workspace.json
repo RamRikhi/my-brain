@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6f17decbca03fdbd",
+        "id": "1eb88fa7e7860977",
         "type": "tabs",
         "children": [
           {
-            "id": "e4355c5d3d9de88c",
+            "id": "631e481d308af6da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1fad194e0e843723",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "weekend-reading/2024/12-Oct.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "reading",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "weekend-reading/2024/12-Oct.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "weekend-reading/2024/12-Oct.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "weekend-reading/2024/12-Oct.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -166,12 +146,12 @@
       "random-note:Open random note": false
     }
   },
-  "active": "1fad194e0e843723",
+  "active": "631e481d308af6da",
   "lastOpenFiles": [
-    "weekend-reading/Untitled.md",
     "weekend-reading/2024/12-Oct.md",
-    "weekend-reading/2024",
     "README.md",
+    "weekend-reading/Untitled.md",
+    "weekend-reading/2024",
     "weekend-reading",
     "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
     "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
