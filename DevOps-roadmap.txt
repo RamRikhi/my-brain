@@ -7,3 +7,104 @@
 16th Nov to 30th Nov 20 DevOps Videos
 1st Dec to 10th Dec 18 DevOps Videos
 11th Dec to 25th Dec 20 Docker and K8s Videos
+
+
+rnd on digital note taking
+
+
+docker run --name elastic -p 9200:9200 -it -m 1GB docker.elastic.co/elasticsearch/elasticsearch:8.15.2
+
+docker run --name kibana  -p 5601:5601 docker.elastic.co/kibana/kibana:8.15.2
+
+docker run --name postgres -p 5432:5432 -e POSTGRES_USER=rikhi -e POSTGRES_PASSWORD=rikhi -d postgres
+
+docker run --name "pgadmin4" -p 80:80 -e "PGADMIN_DEFAULT_EMAIL=rikhiram47@gmail.com" -e "PGADMIN_DEFAULT_PASSWORD=rikhi" -d dpage/pgadmin4
+
+delete all the stopped container
+---------------------------------------
+ docker rm -f $(docker ps -a -q)
+
+ docker rmi $(docker images -q)
+
+Inspect Network
+-------------------------------
+
+docker inspect postgres -f "{{json .NetworkSettings.Networks }}"
+
+
+
+➜ STARTUP BOOKS
+1. The Start-Up J Curve by Howard Love
+2. The Lean Startup by Eric Ries
+3. The Mom Test by Rob Fitzpatrick
+4. The Hard Thing About Hard Things by Ben Horowitz
+5. Zero To One by Peter Thiel
+
+➜ BUSINESS STRATEGY BOOKS
+6. Blue Ocean Strategy by W. Chan Kim & Renée Mauborgne
+7. The Innovator’s Dilemma by Clayton Christensen
+8. Understanding Michael Porter by Joan Magretta
+9. Crossing The Chasm by Geoffrey A. Moore
+10. Good Strategy / Bad Strategy by Richard Rumelt
+11. Good To Great by Jim Collins
+
+➜ MARKETING BOOKS
+12. Traction by Gabriel Weinberg & Justin Mares
+13. Marketing Made Simple by Donald Miller
+14. Contagious by Jonah Berger
+15. The 22 Immutable Laws of Marketing by Al Ries & Jack Trout
+16. This Is Marketing by Seth Godin
+17. They Ask You Answer by Marcus Sheridan
+18. Building A StoryBrand by Donald Miller
+19. Influence by Dr. Robert Cialdini
+20. The Language Of Trust by Michael Maslansky
+
+➜ PRODUCT DEVELOPMENT BOOKS
+21 Sprint by Jake Knapp
+22. Hacking Growth by Sean Ellis & Morgan Brown
+23. Start At The End by Matt Wallaert
+24. Hooked by Nir Eyal
+25. Friction by Roger Dooley
+26. Perennial Seller by Ryan Holiday
+
+➜ LEADERSHIP BOOKS
+27. Start With Why by Simon Sinek
+28. The Dichotomy Of Leadership by Jocko Willink & Leif Babin
+29. Leaders Eat Last by Simon Sinek
+30. Measure What Matters by John Doerr
+31. The Infinite Game by Simon Sinek
+
+➜ MANAGEMENT BOOKS
+32. The Making Of A Manager by Julie Zhuo
+33. The Coaching Habit by Michael Bungay Stanier
+34. First, Break All The Rules by Marcus Buckingham
+35. Multipliers by Liz Wiseman
+36. Who by Geoff Smart & Randy Street
+
+➜ PRODUCTIVITY BOOKS
+37. The One Thing by Gary Keller
+38. Digital Minimalism by Cal Newport
+39. Flow by Mihalyi Csikszentmihalyi
+40. Your Brain At Work by David Rock
+41. Who Not How by Dan Sullivan & Dr. Benjamin Hardy
+
+➜ SELF-HELP BOOKS
+42. Atomic Habits by James Clear
+43. Mindset by Carol S. Dweck
+44. So Good They Can’t Ignore You by Cal Newport
+45. Essentialism by Greg McKeown
+46. Futureproof by Kevin Roose
+47. Ultralearning by Scott H. Young
+48. Chatter by Ethan Kross
+49. Thinking, Fast and Slow by Daniel Kahneman
+50. Never Split The Difference by Chris Voss
+
+
+Business Books
+------------------------------
+0:48 Built From Scratch
+6:03 Poor Charlies Almanac
+11:39 The Ride of A Lifetime
+16:19 Steve Jobs
+23:14 Elon Musk
+27:36 Made in America

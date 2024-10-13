@@ -11,8 +11,12 @@
             "id": "631e481d308af6da",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "book-reading-hub/Autobiography.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "book-reading-hub/Autobiography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "book-reading-hub/Autobiography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "book-reading-hub/Autobiography.md"
+              }
             }
           }
         ]
@@ -148,6 +155,7 @@
   },
   "active": "631e481d308af6da",
   "lastOpenFiles": [
+    "book-reading-hub/Autobiography.md",
     "weekend-reading/2024/12-Oct.md",
     "README.md",
     "weekend-reading/Untitled.md",
@@ -160,6 +168,6 @@
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
     "Projects - Demo Project/Why You Should Be Taking More Notes.md",
     "Projects - Demo Project",
-    "Books"
+    "book-reading-hub"
   ]
 }
